@@ -2,4 +2,4 @@
 
 ## tache du jour
 
--[ ] finir
+-[x] finir

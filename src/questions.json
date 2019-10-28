@@ -1,0 +1,334 @@
+[
+  {
+    "question": "qu'elle est le sens de la vie ?",
+    "responses": [
+      {
+        "response": "0",
+        "points": -10
+      },
+      {
+        "response": "32",
+        "points": -10
+      },
+      {
+        "response": "42",
+        "points": 10
+      },
+      {
+        "response": "69",
+        "points": -10
+      }
+    ]
+  },
+  {
+    "question": "pourquoi ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": 10
+      },
+      {
+        "response": "non",
+        "points": -10
+      },
+      {
+        "response": "parce que",
+        "points": 10
+      },
+      {
+        "response": "je ne sais pas",
+        "points": -10
+      }
+    ]
+  },
+  {
+    "question": "qui suis-je ?",
+    "responses": [
+      {
+        "response": "moi",
+        "points": 0
+      },
+      {
+        "response": "ca te regarde pas",
+        "points": -10
+      },
+      {
+        "response": "une gentille personne",
+        "points": 10
+      },
+      {
+        "response": "un singe",
+        "points": -10
+      }
+    ]
+  },
+  {
+    "question": "Avez-vous des intensions hostile ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": -10
+      },
+      {
+        "response": "non",
+        "points": 10
+      },
+      {
+        "response": "un peu",
+        "points": -10
+      },
+      {
+        "response": "des quoi ?",
+        "points": -10
+      }
+    ]
+  },
+  {
+    "question": "etes-vous humain ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": 10
+      },
+      {
+        "response": "non",
+        "points": -10
+      },
+      {
+        "response": "un peu",
+        "points": 10
+      },
+      {
+        "response": "peut-etre",
+        "points": -10
+      }
+    ]
+  },
+  {
+    "question": "droite ou gauche ?",
+    "responses": [
+      {
+        "response": "gauche",
+        "points": -10
+      },
+      {
+        "response": "droite",
+        "points": -10
+      },
+      {
+        "response": "aucun",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "question": "pain au chocolat ou chocolatine ?",
+    "responses": [
+      {
+        "response": "pain au chocolat",
+        "points": 10
+      },
+      {
+        "response": "chocolatine",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "question": "Avez-vous voyager au pakistan récement ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": -10
+      },
+      {
+        "response": "non",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "question": "Avez-vous voyager au Pôle Nord récement ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": -10
+      },
+      {
+        "response": "non",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "question": "Avez-vous des enfants ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": -10
+      },
+      {
+        "response": "non",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "question": "Vos style musicaux :",
+    "responses": [
+      {
+        "response": "rap",
+        "points": -10
+      },
+      {
+        "response": "classique",
+        "points": 10
+      },
+      {
+        "response": "electro",
+        "points": 10
+      },
+      {
+        "response": "jazz",
+        "points": -10
+      }
+    ]
+  },
+  {
+    "question": "Vos animaux préférer :",
+    "responses": [
+      {
+        "response": "rat",
+        "points": -10
+      },
+      {
+        "response": "singe",
+        "points": 10
+      },
+      {
+        "response": "éléphant",
+        "points": 10
+      },
+      {
+        "response": "mouton",
+        "points": -10
+      }
+    ]
+  },
+  {
+    "question": "Etes-vous polidactilien(ne) ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": -10
+      },
+      {
+        "response": "non",
+        "points": 10
+      },
+      {
+        "response": "c'est quoi ?",
+        "points": -10
+      }
+    ]
+  },
+  {
+    "question": "Etes-vous hypophyle ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": -10
+      },
+      {
+        "response": "non",
+        "points": 10
+      },
+      {
+        "response": "c'est quoi ?",
+        "points": -10
+      }
+    ]
+  },
+  {
+    "question": "Songer-vous à changer de carrière ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": 10
+      },
+      {
+        "response": "non",
+        "points": -10
+      }
+    ]
+  },
+  {
+    "question": "Etes-vous superstitieux ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": -10
+      },
+      {
+        "response": "non ca porte malheur",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "question": "Avez-vous le choix dans la date ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": 10
+      },
+      {
+        "response": "non",
+        "points": -10
+      },
+      {
+        "response": "je la connais celle la",
+        "points": 10000
+      }
+    ]
+  },
+  {
+    "question": "Etes-vous végane ?",
+    "responses": [
+      {
+        "response": "oui",
+        "points": -20
+      },
+      {
+        "response": "non",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "question": "que pensez vous de la Congoléxicomatisation des marchée ?",
+    "responses": [
+      {
+        "response": "la ... quoi ?",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "question": "Omae wa mo shindeiru",
+    "responses": [
+      {
+        "response": "nani ?",
+        "points": 100
+      },
+      {
+        "response": "je ne sais pas",
+        "points": -10
+      },
+      {
+        "response": "watashi wa muteki",
+        "points": 100
+      }
+    ]
+  }
+]
