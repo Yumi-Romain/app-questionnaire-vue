@@ -167,25 +167,38 @@
                 this.focusIndex = index
             },
             /**
+             * String Digester
+             */
+            digestString: async function(string) {
+                const msgUint8 = new TextEncoder().encode(string)
+                const hashBuffer = await crypto.subtle.digest('SHA-256', msgUint8)
+                const hashArray = Array.from(new Uint8Array(hashBuffer))
+                const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('')
+                return hashHex
+            },
+            /**
              * Handle the submit of the connexion form
              * @param e Event
              */
             submitHandler(e) {
                 e.preventDefault()
-                if (this.password === 'admin') {
-                    this.identified = true
-                    // grab all docs
-                    this.$pouchdb.allDocs({
-                        include_docs: true,
-                        attachments: true
-                    }).then(result => {
-                        this.users = result.rows.map(doc => doc.doc)
-                    })
-                } else {
-                    this.error = true
-                }
+                this.digestString(this.password).then(password => {
+                    if (password === '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918') {
+                        this.identified = true
+                        // grab all docs
+                        this.$pouchdb.allDocs({
+                            include_docs: true,
+                            attachments: true
+                        }).then(result => {
+                            this.users = result.rows.map(doc => doc.doc)
+                        })
+                    } else {
+                        this.error = true
+                    }
+                })
             }
         }
+
     }
 </script>
 
